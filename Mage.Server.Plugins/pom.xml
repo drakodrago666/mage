@@ -41,7 +41,9 @@
         <module>Mage.Player.AI.DraftBot</module>
         <module>Mage.Player.Human</module>
         <module>Mage.Tournament.BoosterDraft</module>
+                     <module>Mage.Game.SpeedCommanderDuel</module>
         <module>Mage.Tournament.Constructed</module>
+             
         <module>Mage.Tournament.Sealed</module>
     </modules>
 
