@@ -1,4 +1,26 @@
-# XMage — Magic, Another Game Engine
+<!-- EXODUS-INTRO -->
+# Exodus
+
+**Exodus is my improved and customized version of XMage**, built for private Magic: The Gathering games with friends.
+
+## Current custom format
+
+### Speed Commander Free For All
+
+Speed Commander currently supports 2–10 players and includes:
+
+- Draw 10 cards for the opening hand.
+- Complete normal mulligans.
+- Choose and discard 3 cards after mulligans.
+- Play up to 2 lands each turn.
+- During the draw step, refill to 8 cards when below 8.
+- Players with no maximum hand size receive only their normal draw.
+- Standard Commander deck construction, command zone, commander tax, color identity, commander damage, and starting life rules remain active.
+
+> Exodus is based on the XMage project. Original XMage licensing and attribution remain included below and throughout this repository.
+
+---
+# XMage â€” Magic, Another Game Engine
 
 [![Build Status](https://github.com/magefree/mage/actions/workflows/maven.yml/badge.svg)](https://github.com/magefree/mage/actions/workflows/maven.yml)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=magefree_mage&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=magefree_mage)
