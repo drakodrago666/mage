@@ -20,6 +20,7 @@
         <module>Mage.Deck.Limited</module>
         <module>Mage.Game.CommanderDuel</module>
         <module>Mage.Game.CommanderFreeForAll</module>
+        <module>Mage.Game.SpeedCommanderFreeForAll</module>
         <module>Mage.Game.FreeForAll</module>
         <module>Mage.Game.MomirDuel</module>
         <module>Mage.Game.MomirGame</module>

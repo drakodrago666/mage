@@ -640,7 +640,7 @@ public class NewTableDialog extends MageDialog {
             case "Variant Magic - MTGO 1v1 Commander":
             case "Variant Magic - Centurion Commander":
             case "Variant Magic - Penny Dreadful Commander":
-                if (!options.getGameType().startsWith("Commander")) {
+                if (!options.getGameType().startsWith("Commander") && !options.getGameType().startsWith("Speed Commander")) {
                     JOptionPane.showMessageDialog(MageFrame.getDesktop(), "Deck type Commander needs also a Commander game type", "Error", JOptionPane.ERROR_MESSAGE);
                     return false;
                 }
@@ -686,6 +686,7 @@ public class NewTableDialog extends MageDialog {
 
         // game => deck
         switch (options.getGameType()) {
+            case "Speed Commander Free For All":
             case "Commander Two Player Duel":
             case "Commander Free For All":
                 if (!options.getDeckType().equals("Variant Magic - Commander")
